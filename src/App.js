@@ -1,25 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
+import NamePage from './NamePage';
+import Experience from './Experience';
+import Future from './Future';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <NamePage />
+      <Experience />
+      <Future />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+export const updateButton = async(setD, newClass, ms) => {
+  await sleep(ms); 
+  setD(newClass);
+}
+
+export function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
