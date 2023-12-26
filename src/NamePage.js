@@ -35,7 +35,7 @@ export default function NamePage() {
       <div className="namepage-text-container">
         <p className="namepage-text">Hi! My name is Alexis Alaniz and I am an Assistant Manager at Willowbrook Hollister as well as a student at Houston Community College pursuing an Associates of Healthcare Administration.</p>
       </div>
-      <button className={buttonDisplay} style={{marginTop:"5vmax"}} onClick={()=> {
+      <button className={buttonDisplay} id="button-padding" onClick={()=> {
         window.scrollTo({
           top: (elementRef.current.offsetHeight),
           behavior: "smooth"

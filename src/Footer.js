@@ -8,7 +8,7 @@ export default function Footer(){
         <img src="insta-logo.png" alt="insta" className='insta-logo'/>
         @username
       </a> */}
-      <a href='' className='footer-git'>
+      <a href='https://github.com/NickWickboldt/alexis-website' target='_blank' className='footer-git'>
         <img src='github-logo.png' alt='git' className='git-logo'/>
         © 2023 Nicholas Wickboldt. All Rights Reserved.
       </a>

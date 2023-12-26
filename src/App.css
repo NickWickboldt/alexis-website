@@ -346,3 +346,97 @@ body{
   animation: blinking 1s infinite; 
 }
 
+#button-padding{
+  margin-top: 5vmax; 
+}
+
+@media only screen and (orientation: landscape) {
+  .namepage-title{
+    font-size:8vmin;
+    margin-top: 10vmin;  
+    margin-bottom: 2vmin; 
+  }
+  .namepage-typewriter{
+    font-size: 8vmin;
+  }
+  .namepage-pfp{
+    margin-bottom: 2vmin; 
+    width: 35vmin; 
+    height: 35vmin;
+  }
+  .namepage-text-container{
+    max-height: 20vmin;
+    font-size: 2.5vmin;  
+  }
+  #button-padding{
+    margin-top:2vmin; 
+  }
+  .namepage-content{
+    justify-content: center;
+  }
+
+  .timeline{
+    padding-top: 12vmin; 
+  }
+
+  .timeline > hr{
+    height: 70vmin; 
+  }
+
+  .timeline > p{
+    font-size: 5vmin; 
+  }
+
+  .job-container{
+    width: 80%;
+    height: 30%; 
+    max-height: fit-content;  
+  }
+
+  .job-title{
+    font-size: 2vmin; 
+  }
+
+  .job-loc{
+    font-size: 3vmin; 
+  }
+
+  .job-duration{
+    font-size: 2vmin; 
+  }
+
+  .job-desc{
+    font-size: 1.8vmin; 
+  }
+
+  .job-container > p{
+    padding-bottom: 0.2vmin; 
+  }
+
+  .skillset-thumbnail, .education-thumbnail, .location-thumbnail{
+    width: 30vmin; 
+    margin: 5vmin; 
+  }
+  .future-content{
+    justify-content: center;
+    padding-top: 5vh; 
+  }
+
+  .skillset-content, .education-content, .location-content{
+    height: 25%;
+    width: 60%; 
+    margin: 2vmin; 
+  }
+
+  .skillset-text > h1, .education-text > h1, .location-text > h1{
+    font-size: 4vmin; 
+  }
+
+  .skillset-text > p, .education-text > p, .location-text > p{
+    font-size: 1.8vmin; 
+  }
+
+  .location-content{
+    background-position: 100%;
+  }
+}
