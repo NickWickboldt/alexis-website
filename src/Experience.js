@@ -62,7 +62,7 @@ export default function Experience() {
           updateButton(setButtonDisplay, "newpage-button", 0);
         }}
       >
-        What's Next? ⮯
+        What's Next? <img src="down-arrow.png" alt="⌄"/>
       </button>
     </div>
   );

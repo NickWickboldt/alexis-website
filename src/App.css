@@ -226,8 +226,8 @@ body{
 
 .job-container{
   color: var(--rich-black);
-  width: 45vmax; 
-  height: 20vmax; 
+  width: 90%; 
+  height: 25%; 
   background-color: var(--seasalt);
   border-radius: 1vmax; 
   box-shadow: var(--chinese-violet) 0px 0px 10px, var(--chinese-violet) 0px 0px 10px;
@@ -350,6 +350,21 @@ body{
   margin-top: 5vmax; 
 }
 
+.nav > button > img{
+  width: 60%; 
+}
+
+.nav > button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newpage-button > img{
+  width: 10%;
+  vertical-align: middle; 
+}
+
 @media only screen and (orientation: landscape) {
   .namepage-title{
     font-size:8vmin;
@@ -438,5 +453,25 @@ body{
 
   .location-content{
     background-position: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .namepage-title{
+    font-size: 7vmin; 
+  }
+  .namepage-typewriter{
+    font-size: 8vmin; 
+  }
+  .skillset-content, .education-content, .location-content{
+    max-width: 90%;
+    height: 25%; 
+    margin: 1vmin; 
+  }
+  .future-content{
+    justify-content: center;
+  }
+  .skillset-thumbnail, .education-thumbnail, .location-thumbnail{
+    margin: 5vmin;  
   }
 }

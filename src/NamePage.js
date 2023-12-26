@@ -42,7 +42,7 @@ export default function NamePage() {
         })
         updateButton(setButtonDisplay, "newpage-button", 0)
       }
-      }>My Experience ⮯</button>
+      }>My Experience <img src="down-arrow.png" alt="⌄"/></button>
     </div>
   );
 }

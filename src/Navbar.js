@@ -32,7 +32,9 @@ export default function Navbar(){
     <div className="nav" >
       <img src="logo.png" alt="logo" className="logo"/>
       <p className="nav-text">Alexis Alaniz</p>
-      <button className={opac} onClick={() => scrollToTop()}>⮭</button>
+      <button className={opac} onClick={() => scrollToTop()}>
+        <img src='up-arrow.png' alt='^'/>
+      </button>
     </div>
   )
 }
