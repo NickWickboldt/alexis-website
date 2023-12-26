@@ -337,9 +337,9 @@ body{
   padding: 0.25vmax; 
   font-family: 'Cookie', sans-serif;
   color: var(--brilliant-rose); 
-  text-shadow: var(--chinese-violet) 0px 0px 10px, var(--chinese-violet) 0px 0px 20px;
+  text-shadow: var(--chinese-violet) 0px 0px 5px, var(--chinese-violet) 0px 0px 10px;
   font-size: 3vmax; 
-  filter: brightness(125%); 
+  filter: brightness(100%); 
 }
 
 .blinking{
