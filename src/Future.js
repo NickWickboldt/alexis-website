@@ -66,11 +66,11 @@ export default function Future(){
       <div className="education-text">
         <h1>My Education</h1>
         <hr />
-        <p>In 2024, I anticipate graduating  with an Associates of Healthcare Administration from Houston Community College. Throughout my pursuit of this degree,, I have learned the importance of healthcare regulation and compliance, a wide range of medical and financial terminology, how to manage, store, and organize health information, basic financial principles as they relate to healthcare, and data entry into software such as Excel. </p>
+        <p>In 2024, I anticipate graduating  with a Bachelor's of Healthcare Administration from University of Houston Clearlake. Throughout my pursuit of this degree, I have learned the importance of healthcare regulation and compliance, a wide range of medical and financial terminology, how to manage, store, and organize health information, basic financial principles as they relate to healthcare, and data entry into software such as Excel. </p>
       </div>
     </div>
   }else{
-    HCCCOntent = <img src="hcc-logo1.png"  alt="hcc-logo1" className={isEThumbnailVisible} onClick={() => {
+    HCCCOntent = <img src="uni-logo.jpg"  alt="hcc-logo1" className={isEThumbnailVisible} onClick={() => {
       setIsHCCClicked(true); 
     }}/>
   }
@@ -83,7 +83,7 @@ export default function Future(){
         <h1>My Goals</h1>
         <hr />
         <p>In the next year, I hope to acquire an entry-level healthcare administration position as well as expand my connections in the healthcare field. Beyond this, I'd like to continue purusing career advancement and higher education. </p>
-        <p>Also, I hope to move to Colorado (:</p>
+        <p>Also, I hope to move to Colorado :)</p>
       </div>
     </div>
   }else{

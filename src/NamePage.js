@@ -33,7 +33,7 @@ export default function NamePage() {
       </p>
       <img src="blank-pfp.png" alt="pfp" className="namepage-pfp"/>
       <div className="namepage-text-container">
-        <p className="namepage-text">Hi! My name is Alexis Alaniz and I am an Assistant Manager at Willowbrook Hollister as well as a student at Houston Community College pursuing an Associates of Healthcare Administration.</p>
+        <p className="namepage-text">Hi! My name is Alexis Alaniz and I am an Assistant Manager at Willowbrook Hollister as well as a student at University of Houston Clearlake pursuing a Bachelor's of Healthcare Administration.</p>
       </div>
       <button className={buttonDisplay} id="button-padding" onClick={()=> {
         window.scrollTo({
